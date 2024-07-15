@@ -45,12 +45,6 @@ plt.xlabel('Number of clusters, k')
 plt.ylabel('Silhouette Score')
 plt.title('Silhouette Scores for Different Values of k')
 
-# Plot 2: Elbow Method
-plt.subplot(1, 2, 2)
-plt.plot(K, inertia_values, 'ro-')
-plt.xlabel('Number of clusters, k')
-plt.ylabel('Inertia')
-plt.title('Elbow Method for Optimal k')
 
 plt.tight_layout()
 plt.savefig('cluster_evaluation.png')  # Save the plot as a PNG file
