@@ -3,3 +3,4 @@ numpy
 scikit-learn
 matplotlib 
 openpyxl
+scipy==1.14.0
